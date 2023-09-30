@@ -1,0 +1,7 @@
+body{
+  font-family: "NHaaGroteskDSPro-65Md" !important;
+  background-color: rgb(27, 27, 27);
+}
+#carousel{
+  max-height: 500px;
+}
