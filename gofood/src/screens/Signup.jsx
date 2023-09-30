@@ -15,7 +15,7 @@ const Signup = () => {
     try {   
 
       
-      const response = await axios.post("http://project-weld-nu.vercel.app
+      const response = await axios.post("https://project-weld-nu.vercel.app
 /creatuser", {
         name: credentials.name,
         email: credentials.email,
