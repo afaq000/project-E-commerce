@@ -14,9 +14,7 @@ const Signup = () => {
     e.preventDefault(); 
     try {   
 
-      
-      const response = await axios.post("https://project-weld-nu.vercel.app
-/creatuser", {
+ const response = await axios.post("https://project-weld-nu.vercel.app/creatuser", {
         name: credentials.name,
         email: credentials.email,
         password: credentials.password,
