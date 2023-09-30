@@ -47,7 +47,7 @@ const Signup = () => {
 
           <label htmlFor="exampleInputEmail1">Name</label>
           <input type="text" className="form-control" name='name' onChange={onChange} value={credentials.name} placeholder="Enter Name" />
-
+{{a}}
         </div>
         <div className="form-group">
 
