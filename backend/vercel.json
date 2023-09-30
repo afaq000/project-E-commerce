@@ -1,12 +1,16 @@
 {
-  "version":2,
-  "bulids":[
-{ "src":"*.js","use":"@vercel/node"}
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "node14"  // Use the desired Node.js version
+    }
   ],
-  "routes":[
- { "src":"/(.*)",
-    "dest":"/"
- }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
-  
 }
+
