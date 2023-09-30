@@ -15,7 +15,8 @@ const Signup = () => {
     try {   
 
       
-      const response = await axios.post("http://localhost:5000/api/creatuser", {
+      const response = await axios.post("http://project-weld-nu.vercel.app
+/creatuser", {
         name: credentials.name,
         email: credentials.email,
         password: credentials.password,
