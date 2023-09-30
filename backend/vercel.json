@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "*.js",
-      "use": "node14" 
+      "use": "node14"
     }
   ],
   "routes": [
